@@ -1,8 +1,8 @@
 # Spring-Boot-RESTful-Api for Contact System
 
->> This is a spring boot REST API that will enable a client to perform CRUD operations on the contact collection.
+ This is a spring boot REST API that will enable a client to perform CRUD operations on the contact collection.
 
-## Usage
+# Execution
 ```
 # To build the project standard maven build is sufficient
 mvn clean install
@@ -13,16 +13,14 @@ mvn spring-boot:run
 # The integration test may be executed using
 mvn test
 ```
- 
+ # Usage 
 Once the application is started,
-## To get the Airport Info 
-- Goto http://localhost:8082/airport/{IATAcode} which return all information available about the airport inputted.
 
-## To get the distance between airports
-- Goto http://localhost:8082/airport?originAirportCode={IATAcode}&destinationAirportCode={IATAcode} return the distance in miles between the 2 airports
+## To get all the contacts   
+- Goto http://localhost:8080/contacts/ which return all contacts available.
+
+## To get specific contact   
+- Goto http://localhost:8080/contacts/{id} which return all the information about the contact.
 
 
 
-## For Example
-- http://localhost:8082/airport/ORD
-- http://localhost:8082/airport/distance?originAirportCode=ORD&destinationAirportCode=JFK
