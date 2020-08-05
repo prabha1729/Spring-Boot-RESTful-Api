@@ -2,6 +2,12 @@
 
  This is a spring boot REST API that will enable a client to perform CRUD operations on the contact collection.
 
+# Reach out to me
+[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/prabhakargaddam/)
+[<img align="left" alt="Gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />](<mailto:prabhakargaddam1729@gmail.com>)
+
+<br/>
+
 # Execution
 ```
 # To build the project standard maven build is sufficient
@@ -52,6 +58,11 @@ $ curl -i -X POST -H "Content-Type:application/json" -d "{
 }" http://localhost:8080/contacts/
 
 ```
+
+## You may also like...
+
+- [Stock Trade ](https://github.com/prabha1729/Hacker-Rank-Stock-Trade-Api) - A RESTful service to manage trades using Spring Boot framework
+- [Airport Info](https://github.com/prabha1729/Airport-Info) - A Spring Boot Service for airport information.
 
 
 
